@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    margin: 10vh 0 0 0;
+    /* width: 40vw; */
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    height: 5vh;
+    width: 30vw;
+}
+
+button {
+    height: 5vh;
+    width: 5vw;
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 10px;
+}
